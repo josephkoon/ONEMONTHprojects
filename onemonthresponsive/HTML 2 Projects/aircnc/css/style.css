@@ -1,0 +1,243 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 1.375px;
+  color: #666A6C;
+}
+
+
+/* header */
+header {
+  background:white;
+}
+
+header.logo {
+  border-right: 1px solid gray;
+}
+
+.hero img {
+  width:100%;
+}
+
+
+/* info */
+.info{
+  background:white;
+  text-align:center;
+  padding:25px;
+}
+
+.info h1{
+  margin-bottom: 5px;
+}
+
+.info .profile {
+  margin-bottom: 24px;
+}
+
+.info .owner-details img{
+  border-radius:50%;
+  margin-bottom:6px;
+}
+
+.info h2.relationship, .info h2.name {
+  color: #90957;
+  margin-bottom:3px;
+}
+
+.info h2.name {
+  font-weight: bold;
+}
+
+.info p.location{
+  margin-bottom:20px;
+}
+
+.info .icon {
+  float:left;
+  width: 33.3%;
+}
+
+.info .icon img{
+  height:30px;
+  margin-bottom:3px;
+}
+
+.info .booking h2{
+  font-weight:bold;
+  font-size:22px;
+  margin-bottom:13px;
+}
+
+.info h2.price time{
+  font-size:16px;
+}
+
+
+
+
+
+/* About */
+.about{
+  padding:25px;
+}
+
+.about h2{
+  font-weight:bold;
+  text-align:center;
+  margin-bottom: 11px;
+}
+
+.about p{
+  text-align:justify;
+  margin-bottom: 11px;
+}
+
+.about a{
+  margin:auto; 
+}
+
+
+/* Care */
+.care {
+  padding:25px;
+}
+
+.care h2{
+  font-weight:bold;
+  margin-bottom:11px;
+}
+
+/* Games */
+.games {
+  padding:25px;
+}
+
+.games h2{
+  font-weight:bold;
+  margin-bottom:11px;
+}
+
+.games img{
+  margin-right:5px;
+}
+
+/* Games */
+.dogs img{
+  width:100%;
+  padding:10px;
+}
+
+
+
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+
+
+@media only screen and (min-width: 1060px){
+  .container {
+    width:1040px;
+    margin:0 auto;
+  }
+
+  .column{
+    float:left;
+  }
+
+  .button {
+    width: 275px;
+    margin:auto;
+  }
+
+  .info h1{
+    margin-bottom:11px;
+  }
+
+  .info h2{
+    margin-bottom:3px;
+  }
+
+  .info .profile{
+    width:660px;
+    border-right: 1px solid #DCE0E0;
+  }
+
+  .info .booking {
+    width:380px;
+  }
+
+  .info .owner-details{
+    width:20%;
+  }
+
+  .info .pet-details{
+    width:80%;
+    text-align:left;
+  }
+
+  .info .pet-details .icon{
+    width:inherit;
+    margin-right: 50px;
+  }
+
+  .info .pet-details .icon img{
+    display:block;
+    margin: 3px auto 3px;
+  }
+
+  .dogs img{
+    float:left;
+    width: 33.3%;
+  }
+  
+}
+
+
+

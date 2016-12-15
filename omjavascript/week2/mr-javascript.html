@@ -1,0 +1,32 @@
+</!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<h1>I'm Mr. Javascript</h1>
+		<a href="#" class="hello">How ya feeling?</a>
+		<a href="#" class="howareyou">Ok, how about now?</a>
+		<script type="text/javascript">
+
+			//find all a elements getElementsByClassName / getElemenyById
+			var a1 = document.getElementsByClassName("howareyou");
+			var a2 = document.querySelector(".hello");
+
+			//add click event listener
+			a1[0].addEventListener('click',function(){
+				//find all h1 elements
+				var h1 = document.querySelector("h1");
+				//change what is inside the h1
+				h1.innerHTML="I'm dead";
+			});
+
+			a2.addEventListener('click',function(){
+				var h1 = document.querySelector("h1");
+				h1.innerHTML="I'm alive";
+			});
+
+		</script>
+	</body>
+</html>

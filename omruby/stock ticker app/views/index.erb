@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<div class="container">
+			<h1><%= @greeting%></h1>
+			<p>Enter a stock ticker to get the current price</p>
+			<form action="/" method="POST" class="form-inline">
+				<div class="form-group">
+					<input type="text" name="ticker" class="form-control">
+				</div>
+				<input type="submit" class="btn btn-primary">
+			</form>
+		</div>
+	</body>
+</html>
+

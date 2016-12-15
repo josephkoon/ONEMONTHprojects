@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Oprah Likes You. And so do other people.</title>
+
+	<style>
+	/* Basic CSS comment */ 
+		body {
+		background: lightgray;
+		color: white;
+		width: 960px;
+		margin: 0 auto;
+		}
+
+		h1 {
+		font-size: 80px;
+		color: #333 ;
+		}
+	</style>
+	<script>
+		//alert("I'm annoying"); //pop up alert event
+		//document.write("Hello there!"); //write to html page
+	
+
+		var username = prompt("Hello, what is your name?"); //prompt for name
+		var car = new Array("BMW","SAAB","Maserati")
+		console.log(Math.floor(Math.random() * 3)   ); //debug to console
+
+		carnumber = Math.floor(Math.random() * 3);
+
+
+
+
+		if (username=="Chris") {
+			document.write("<h1>Hello "+username+" you won a "+car[carnumber]+"</h1>"); 
+			
+			if (carnumber==0){
+				document.write('<img src="BMW.jpg" height="50%" width="50%">');
+			}
+			else if (carnumber==1){
+				document.write('<img src="saab.jpg" height="50%" width="50%">');
+			}
+			else if (carnumber==2){
+				document.write('<img src="maserati.jpg" height="50%" width="50%">');
+			}
+
+		}
+		else if (username=="Joey"){
+			document.write("<h1>Hello "+username+" you won a "+car[carnumber]+"</h1>"); 
+			
+			if (carnumber==0){
+				document.write('<img src="BMW.jpg" height="50%" width="50%">');
+			}
+			else if (carnumber==1){
+				document.write('<img src="saab.jpg" height="50%" width="50%">');
+			}
+			else if (carnumber==2){
+				document.write('<img src="maserati.jpg" height="50%" width="50%">');
+			}
+
+		}
+		else {
+			document.write("<h1>Hello "+username+"!</h1>");
+		}
+	</script>
+	</head>
+
+<body>
+	<img src="oprah.jpg" alt="Oprah" height="50%" width="50%">
+</body>
+
+</html>
+
+
+

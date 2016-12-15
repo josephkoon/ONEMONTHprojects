@@ -1,0 +1,38 @@
+body {
+  line-height: 1.5;
+  color: white;
+
+  font-family: 'Baloo Tamma', cursive;
+  background : url('../images/daft-sam.gif');
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  border-radius: 10px;
+  width: 500px;
+  margin: 40px;
+  background: rgba(0,0,0,.75);
+  padding:15px;
+}
+
+p{
+	font-family:sans-serif;
+}
+
+h1{
+	font-size:50px;
+	margin-bottom: -50px;
+}
+
+h2{
+	font-size:30px;
+}
+
+a{
+	color:#BFE35B;
+	text-decoration: none;
+}
